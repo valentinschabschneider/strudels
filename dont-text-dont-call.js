@@ -11,5 +11,7 @@ $: note("[20 - - - 20 - - - 20 - - 20 - - 20 -]/4").sound("rolandtr808_bd").gain
 
 $: note("[50 52 45 48]/32").dur(8).sound("sine")._punchcard();
 
-$: note("[72 71 71 71 72 74 74 74 74 74 72 72 72 71 71 71 72 74 76 76 76 76 72 72]/16").sound("tri").gain(0.7).decay(5).delay(0.5)._punchcard();
+$: note("[72 71 71 71 72 74 74 74 74 74 72 72 72 71 71 71 72 74 76 76 76 76 72 72]/16").sound("tri").gain(0.5).decay(5).delay(0.5)._punchcard();
 $: note("[[72 71] 74 [72 71] 76]/16").sound("sine").gain(0.6)._punchcard();
+
+$: sound("hh*4").gain(0.05);
